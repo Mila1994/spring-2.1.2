@@ -16,10 +16,8 @@ public class AppTest {
 
     @Test
     public void mainTest() {
-        HelloWorld tree =
-                applicationContext.getBean(HelloWorld.class);
-        HelloWorld leaf =
-                applicationContext.getBean(HelloWorld.class);
+        HelloWorld tree = applicationContext.getBean(HelloWorld.class);
+        HelloWorld leaf = applicationContext.getBean(HelloWorld.class);
 
         Cat one = applicationContext.getBean(Cat.class);
         Cat two = applicationContext.getBean(Cat.class);
